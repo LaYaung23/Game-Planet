@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive About Us Section</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+ <div class="heading">
+<h1>About Us</h1>
+<p>A game is something that people often do for fun. It is different from work. Many sports are games, and there are many professional sports.</p>
+</div>
+<div class="container">
+<section class="about">
+<div class="about-image">
+<img src="C:\Users\ACER\Downloads\MicrosoftTeams-image (2).png">
+</div>
+<div class="about-content">
+<h2>How Many Pc Games Are There?</h2>
+<p>The platform initially released just seven games in 2004, but this number has progressively risen in the ensuing years, reaching a staggering 10,963 in 2022, up from 9,635 in 2020. Number of games released on steam worldside from 2004 to 2022. In 2021 The numbers of games are 10283. In 2020 there are 9635. In 2019 ther are 7816 games and In 2018, there are totally 8159 games.</p>
+<a href="" class="read-more">Read More</a>
+</div>
+</section>
+</div>
+
+
+
+</body>
+</html>

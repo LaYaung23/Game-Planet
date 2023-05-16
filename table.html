@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Games</title>
+	<link rel="icon" type="image/icon type" href="Logo.png">
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		table,tr,th,td{
+			text-align: left;
+		}
+		th{
+			background-color: blue;
+
+		}
+		
+		tr{
+			background-color: lightblue;
+			border-bottom: 1px solid;
+		}
+		.table{
+			width: 45%;
+			float: left;
+			margin: 20px;
+
+		}
+		@media only screen and (max-width: 779px){
+			.table{
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		.table table{
+			width: 100%;
+		}
+		body{
+	background: #1a0327;
+	font-family: 'poppins', sans-serif;
+	height: 350px;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+}
+header{
+	width: 100%;
+	height: 10vh;
+	background-position: rgba(0,0,0,0,5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 100%;
+	height: 10vh;
+	background: #550381;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+	padding: 10px;
+	line-height: 1.3rem;
+}
+.logo .fas{
+	font-size: 50px;
+}
+.logo p{
+	width: 130px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+ul.navbar{
+	display: flex;
+	list-style: none;
+}
+ul.navbar li{
+	width: 120px;
+}
+ul.navbar li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+}
+ul.navbar li a.active{
+	color: #fec53a;
+}
+ul.navbar li a:hover:not(.active){
+	color: #fec53a;
+}
+#btn{
+	width: 100%;
+	height: 15vh;
+	background: #fec53a;
+	color: #fff;
+	outline: none;-
+	border: none;
+	clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+	fount-siz: 1.2rem;
+	fount-weight: bold;
+	text-align: right;
+	padding-right: 40px;
+}
+#btn .fas{
+	margin-right: 10px;
+}
+/* heder ends here */
+/*
+@media only screen and (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+.content-wrapper{
+	width: 80%;
+	min-height: 80vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+.content-desc h1{
+	font-size: 3rem;
+	margin-bottom: 10px;
+}
+.content.desc p{
+	width: 550px;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	margin-bottom: 10px;
+}
+.content-desc span{
+	color: #fec53a;
+}
+.setion 1-img{
+	width: 100px;height: 150px;
+	background-size: cover;
+	background-position: center;
+}
+/* footer start here */
+/*
+.footer{
+	width: 100x;
+	height: 55vh;
+	background: #282828;
+	display: flex;
+	align-items: center;
+	position: relative;
+
+}
+.footer-body{
+	width: 90x;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}*/
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="logo">
+				<i class="fas fa-gamepad"></i>
+				<p>Gameing Website</p>
+			</div>
+			<ul class="navbar">
+				<li><a class="active" href="index.html" >Home</a></li>
+				<li><a href="table.html">Games</a></li>
+				<li><a href="About us.html">About us</a></li>
+				<li><a href="Pen1.html">Account</a></li>
+			</ul>
+			<button type="button" id="btn"><i class="fas fa-play"></i>PLAY NOW</button>
+		</header>
+<div class="table">
+	<table>
+
+		<h2>PC Games</h2>
+			<tr>
+			<th>Game title</th>
+			<th>Downloads</th>
+			<th>Viewers</th>
+			</tr>
+		<tr>
+			<td><a href="Minecraft.html">Minecraft</a></td>
+			<td>425 M</td>
+			<td>83,296</td>
+		</tr>
+		<tr>
+			<td><a href="Roblox.html">Roblox</a></td>
+			<td>205 M</td>
+			<td>47 M</td>
+		</tr>
+		<tr>
+			<td><a href="League of Legends.html">League of Legends</a></td>
+			<td>150 M</td>
+			<td>5 M</td>
+		</tr>
+		<tr>
+			<td><a href="Genshin Impact.html">Genshin Impact</a></td>
+			<td>126 M</td>
+			<td>15,917</td>
+		</tr>
+		<tr>
+			<td><a href="Call of Duty.html">Call of Duty</a></td>
+			<td>100 M</td>
+			<td>439 776</td>
+		</tr>
+		<tr>
+			<td><a href="Fortnite.html">Fortnite</a></td>
+			<td>80 M</td>
+			<td>55,374</td>
+		</tr>
+		
+		<tr>
+			<td><a href="The Last of Us Part 1.html">The Last of Us Part 1</a></td>
+			<td>37 M</td>
+			<td>8 M</td>
+		</tr>
+		<tr>
+			<td><a href="God of War.html">God of War</a></td>
+			<td>23 M</td>
+			<td>480 thousand</td>
+		</tr>
+		<tr>
+			<td><a href="The Sims.html">The Sims</a></td>
+			<td>16 M</td>
+			<td>2,917</td>
+		</tr>
+		<tr>
+			<td><a href="Forza Horizon 5.html">Forza Horizon 5</a></td>
+			<td>10 M</td>
+			<td>France</td>
+		</tr>
+	</table>
+		</div>
+		<div class="table">
+		<table >
+	<h2>Mobile Games</h2>
+		<tr>
+			<th>Game title</th>
+			<th>Downloads</th>
+			<th>Views</th>
+		</tr>
+		<tr>
+			<td><a href="Mobile Legends Bang Bang.html">Mobile Legends: Bang Bang</a></td>
+			<td>1 B</td>
+			<td>UK</td>
+		</tr>
+		<tr>
+			<td><a href="Clash of Clans.html">Clash of Clans </a></td>
+			<td>500 M</td>
+			<td>Austria</td>
+		</tr>
+		
+		<tr>
+			<td><a href="Among Us.html">Among Us</a></td>
+			<td>500 M</td>
+			<td>Germany</td>
+		</tr>
+		<tr>
+			<td><a href="Minecraft.html">Minecraft</a></td>
+			<td>425 M</td>
+			<td>Germany</td>
+		</tr>
+		<tr>
+			<td><a href="Subway Surfers.html">Subway Surfers </a></td>
+			<td>304 M</td>
+			<td>Mexico</td>
+		</tr>
+		<tr>
+			<td><a href="Roblox.html">Roblox</a></td>
+			<td>205 M</td>
+			<td>Mexico</td>
+		</tr>
+		<tr>
+			<td><a href="Candy Crush Saga.html">Candy Crush Saga</a></td>
+			<td>138 M</td>
+			<td>Germany</td>
+		</tr>
+		<tr>
+			<td><a href="PUBG.html">PUBG</a></td>
+			<td>7 M</td>
+			<td>Sweden</td>
+		</tr>
+		
+		<tr>
+			<td><a href="Angry bird.html">Angry Birds</a></td>
+			<td>5 M</td>
+			<td>Lialy</td>
+		</tr>
+		<tr>
+			<td><a href="Asphalt 9.html">Asphalt 9</a></td>
+			<td>4 M</td>
+			<td>Canada</td>
+		</tr>
+		
+	</table>
+</div>
+</body>
+</html>

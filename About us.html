@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive About Us Section</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="demo.css">
+<link rel="icon" type="image/icon type" href="Logo.png">
+<style type="text/css">
+	<style type="text/css">
+		img{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+		}
+		.imgbox{	
+			width: 250px;
+			border: 1px solid groove;
+			text-align: center;
+			margin: 4px;
+			padding: 5px;
+
+		}
+		img,button{
+			width: 100%;
+		}
+		.imgcontrol{
+			display: flex;
+			flex-direction: row;
+		}
+	</style>
+</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="logo">
+				<i class="fas fa-gamepad"></i>
+				<p>Gameing Website</p>
+			</div>
+			<ul class="navbar">
+				<li><a class="active" href="index.html" >Home</a></li>
+				<li><a href="table.html">Games</a></li>
+				<li><a href="About us.html">About us</a></li>
+				<li><a href="Pen1.html">Account</a></li>
+			</ul>
+			<button type="button" id="btn"><i class="fas fa-play"></i>PLAY NOW</button>
+		</header>
+	
+ 	<div class="heading">
+		<h1>About Us</h1>
+		<p></p>
+	</div class>
+	<div class="container">
+		<section class="about">
+		<img src="ABM image.png" height="600px" width="1350px">
+	<div class="about-content">
+		<h2></h2>
+		<p></p>
+	</div>
+	</section><br>
+	<div class="imgcontrol">
+	<div class="imgbox" id="imgbox1">
+		<img src="	ABM 1.png" alt="flower">
+		<button onclick="removeElement()">Aung Bhone Min</button>
+	</div>
+	<div class="imgbox" id="imgbox2">
+		<img src="	My image.jpg" alt="flower" width="">
+		<button onclick="changeVisibility()">La Yaung Myint Mo</button>
+	</div>
+	<div class="imgbox" id="imgbox3">
+		<img src="LMT.png" alt="flower">
+		<button onclick="resetElement()">Linn Myat Thu</button>
+	</div>
+	</div>
+</body>
+</html>
